@@ -1,10 +1,10 @@
-# Our model-----ClusterNet
+# Our model
 
-ClusterNet provides a differentiable k-means clustering layer which is used as a building block for solving graph optimization problems. 
+Our model implements community discovery based on GCN node embedding and K-means combinatorial optimization
 
 # Examples of running the experiments
 
-Example running the single-graph experiment for the community detection problem on the cora dataset:
+Example running the single-graph experiment for the community detection problem on the DBLP DBLP dataset:
 
 ```
 python ourtest.py
